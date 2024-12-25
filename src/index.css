@@ -8,14 +8,18 @@
   scroll-behavior: smooth;
 }
 
+
+
 body {
-  background: #010103;
+  background: #000000;
   font-family: 'General Sans', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 @layer utilities {
   .c-space {
-    @apply sm:px-10 px-5;
+    @apply px-10 px-5;
   }
 
   .head-text {
@@ -44,7 +48,7 @@ body {
 
   /* button component */
   .btn {
-    @apply flex gap-4 items-center justify-center cursor-pointer p-3 rounded-md bg-black-300  transition-all active:scale-95 text-white mx-auto;
+    @apply flex gap-4 items-center justify-center  cursor-pointer p-3 rounded-md bg-black-300  transition-all active:scale-95 text-white mx-auto;
   }
 
   .btn-ping {
@@ -126,7 +130,7 @@ body {
 
   /* contact section */
   .contact-container {
-    @apply max-w-xl relative z-10 sm:px-10 px-5 mt-12;
+    @apply max-w-xl relative z-10 sm:px-3 px-5 mt-5;
   }
 
   .field-label {
